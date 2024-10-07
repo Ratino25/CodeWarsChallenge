@@ -24,7 +24,9 @@
 
 
 // cara 3
-const setAlarm = (employed, vacation) => (employed && !vacation);
+function setAlarm(employed, vacation) {
+    return employed > vacation;
+}
 
 
 console.log(setAlarm(true, false));
