@@ -28,4 +28,3 @@ var humanYearsCatYearsDogYears = function(y){
 console.log(humanYearsCatYearsDogYears(1));
 console.log(humanYearsCatYearsDogYears(2));
 console.log(humanYearsCatYearsDogYears(10));
-  
