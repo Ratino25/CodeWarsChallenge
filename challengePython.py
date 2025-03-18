@@ -1,10 +1,7 @@
-def merge_arrays(arr1, arr2):
-    merge = arr1 + arr2
-    
-    #hapus duplicate menggunakan set
-    unique = set(merge)
-    
-    result = sorted(unique)
-    return result
+def replace(s):
+    vowels = "aeiouAEIOU"
+    for vowel in vowels:
+        s = s.replace(vowels, '!')
+    return s
 
-print(merge_arrays([1, 2, 3, 4, 6], [5, 7, 8, 9, 10]))
+print(replace("!Hi! Hi!"))
