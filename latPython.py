@@ -1,9 +1,2 @@
-# segitiga
-
-# sisi = int(input("Masukan sisi:"))
-sisi = 10
-count = 1
-
-for i in range(sisi):
-    print("*" * count)
-    count += 1
+list_for_if = [i for i in range(0,10) if i != 5]
+print(list_for_if)
